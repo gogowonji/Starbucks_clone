@@ -24,6 +24,8 @@
                 android:id="@+id/hello"
                 android:layout_width="match_parent"
                 android:layout_height="113dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/NanumGothic"
                 android:text="Welcome to Starbucks clone app"
                 android:textColor="#000000"
                 android:textSize="40sp" />
@@ -78,6 +80,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="52dp"
+                    android:fontFamily="@font/NanumGothic"
                     android:text="님을 위한 추천메뉴"
                     android:textColor="#272727"
                     android:textSize="30sp" />
@@ -95,38 +98,45 @@
                     <Button
                         android:id="@+id/coffee1"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp" />
 
                     <Button
                         android:id="@+id/coffee2"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"/>
 
                     <Button
                         android:id="@+id/coffee3"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"/>
 
                     <Button
                         android:id="@+id/coffee4"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"/>
 
                     <Button
                         android:id="@+id/coffee5"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"/>
 
                     <Button
                         android:id="@+id/coffee6"
                         android:layout_width="160dp"
-                        android:layout_height="160dp" />
+                        android:layout_height="160dp"
+                        android:layout_margin="5dp"/>
 
                     <Button
                         android:id="@+id/coffee7"
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:text="Button" />
+                        android:text="Button"
+                        android:layout_margin="5dp"/>
                 </LinearLayout>
             </HorizontalScrollView>
 
